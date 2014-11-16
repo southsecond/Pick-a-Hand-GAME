@@ -30,7 +30,7 @@ void setup() {
   corEsq = new Animation("corEsq", 21);
   loopEsq = new Animation("loopEsq", 20);
   loopDta = new Animation("loopEsq", 20);
-  vazEsq = new Animation("vazEsq", 31);
+  vazEsq = new Animation("vazEsq", 21);
 
 
   //initial states
@@ -132,7 +132,7 @@ void serialEvent(Serial p) {
 
 // Ganhou ou Perdeu?
 void sorteia() {
-  int decisao = int(random(8));
+  int decisao = int(random(5));
   if (decisao ==1 || decisao ==3) {
     ganhou = true;
   } else {
