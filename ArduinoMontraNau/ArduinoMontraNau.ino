@@ -1,5 +1,5 @@
 //Montra da NAU
-//O joguinho das maos com as bolas e caralho
+//O joguinho das maos com as bolas e carago
 
 
 int maoEsq = 0;
